@@ -1,12 +1,14 @@
 Facial Emotion Recognition System
 
-This project implements a CNN-based facial emotion recognition system using the FER-2013 dataset.
+This project implements a ResNet-based facial emotion recognition system using the FER-2013 dataset.
 
 Features:
-- Image classification using CNN
+- Image classification using CNN and ResNet
 - Data augmentation
 - Model training and evaluation
 - Modular code structure
+- Real-time webcam detection
+- Transfer learning (ResNet)
 
 Tech Stack:
 - PyTorch
@@ -20,6 +22,4 @@ Usage:
 3. Model will be saved in /models
 
 Future Work:
-- Real-time webcam detection
-- Transfer learning (ResNet)
 - Web deployment
